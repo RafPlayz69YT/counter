@@ -6,7 +6,7 @@ import flixel.FlxG;
 
 class PlayState extends FlxState
 {
-	var counter:cpp.UInt64 = 0;
+	var counter:Int = 0;
 	var counterText:FlxText;
 
 	override public function create()
